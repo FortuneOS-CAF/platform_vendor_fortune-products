@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 FortuneOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platforms/bengal515.xml" />
+
+  <project path="device/xiaomi/sepolicy" name="platform_device_xiaomi_sepolicy" remote="fortune" />
+  <project path="device/xiaomi/sm6225-common" name="SM6225-Ground/android_device_xiaomi_sm6225-common" remote="github" revision="vic"/>
+  <project path="device/xiaomi/topaz" name="SM6225-Ground/android_device_xiaomi_topaz" remote="github" revision="vic"/>
+  <project path="device/xiaomi/topaz-kernel" name="SM6225-Ground/android_device_xiaomi_topaz-kernel" remote="github" revision="vic"/>
+  <project path="hardware/xiaomi" name="platform_hardware_xiaomi" remote="fortune" />
+  <project path="vendor/xiaomi/sm6225-common" name="SM6225-Ground/proprietary_vendor_xiaomi_sm6225-common" remote="github" revision="vic"/>
+  <project path="vendor/xiaomi/topaz" name="SM6225-Ground/proprietary_vendor_xiaomi_topaz" remote="github" revision="vic"/>
+</manifest>
