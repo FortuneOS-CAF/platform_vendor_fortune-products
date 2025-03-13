@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platforms/taro.xml" />
+
+  <project path="device/xiaomi/garnet" name="pa-garnet/device_xiaomi_garnet" remote="github" revision="vauxite" />
+  <project path="device/xiaomi/garnet-kernel" name="pa-garnet/device_xiaomi_garnet-kernel" remote="github" revision="vauxite" clone-depth="1" />
+  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="vauxite" />
+  <project path="vendor/xiaomi/garnet" name="pa-garnet/vendor_xiaomi_garnet" remote="github" revision="vauxite" clone-depth="1" />
+  <project path="vendor/xiaomi/camera" name="ramaadni/proprietary_vendor_xiaomi_camera" remote="gitlab" revision="vauxite" clone-depth="1" />
+  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="uvite-8450" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="uvite-8450" />
+</manifest>
